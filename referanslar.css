@@ -1,0 +1,1373 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 15px 0px 15px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3
+{
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
+}
+#LayoutGrid1 .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   flex-basis: 16.66666667%;
+   max-width: 16.66666667%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: center;
+}
+#LayoutGrid1 .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   flex-basis: 58.33333333%;
+   max-width: 58.33333333%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: left;
+}
+#LayoutGrid1 .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   flex-basis: 25%;
+   max-width: 25%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: right;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #F5F5F5;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid2
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 0px 0px 0px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid2 .col-1, #LayoutGrid2 .col-2, #LayoutGrid2 .col-3, #LayoutGrid2 .col-4
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid2 .col-1, #LayoutGrid2 .col-2, #LayoutGrid2 .col-3, #LayoutGrid2 .col-4
+{
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
+}
+#LayoutGrid2 .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   flex-basis: 25%;
+   max-width: 25%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: center;
+}
+#LayoutGrid2 .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   flex-basis: 25%;
+   max-width: 25%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: center;
+}
+#LayoutGrid2 .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   flex-basis: 25%;
+   max-width: 25%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: center;
+}
+#LayoutGrid2 .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   flex-basis: 25%;
+   max-width: 25%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 .col-1, #LayoutGrid2 .col-2, #LayoutGrid2 .col-3, #LayoutGrid2 .col-4
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_LayoutGrid3
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid3
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 50px 0px 50px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid3 .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid3 .col-1
+{
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
+}
+#LayoutGrid3 .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: center;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid3 .col-1
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_LayoutGrid4
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px #CCCCCC solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#LayoutGrid4
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 30px 0px 30px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid4 .col-1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid4 .col-1
+{
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
+}
+#LayoutGrid4 .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid4 .col-1
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_logo
+{
+   vertical-align: top;
+}
+#logo
+{
+   border: 0px #000000 solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 0px 0px 0px;
+   display: inline-block;
+   width: 131px;
+   height: 72px;
+   vertical-align: top;
+}
+#wb_baslik
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 20px 0px 20px;
+}
+#baslik
+{
+   color: #191970;
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-size: 53px;
+   margin: 0;
+   text-align: center;
+}
+#wb_sayfa1
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   border-radius: 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 0px 0px 0px;
+}
+#sayfa1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   margin: 0;
+   text-align: center;
+}
+#sayfa1 a
+{
+   color: #000000;
+   text-decoration: none;
+}
+#wb_sayfa2
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   border-radius: 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 0px 0px 0px;
+}
+#sayfa2
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   margin: 0;
+   text-align: center;
+}
+#sayfa2 a
+{
+   color: #000000;
+   text-decoration: none;
+}
+#wb_sayfa3
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   border-radius: 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 0px 0px 0px;
+}
+#sayfa3
+{
+   color: #00008B;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   margin: 0;
+   text-align: center;
+}
+#sayfa3 a
+{
+   color: #00008B;
+   text-decoration: none;
+}
+#wb_sayfa4
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #FFFFFF solid;
+   border-radius: 4px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 0px 0px 0px 0px;
+}
+#sayfa4
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+   margin: 0;
+   text-align: center;
+}
+#sayfa4 a
+{
+   color: #000000;
+   text-decoration: none;
+}
+#wb_adres 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_adres div
+{
+   text-align: left;
+}
+#PhotoGallery1
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery1 .thumbnails
+{
+   margin: 0;
+}
+#PhotoGallery1 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   float: left;
+   padding: 3px 3px 3px 3px;
+   width: 10%;
+   text-align: center;
+   vertical-align: top;
+}
+#PhotoGallery1 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery1 .clearfix:before,
+#PhotoGallery1 .clearfix:after,
+#PhotoGallery1 .thumbnails:before,
+#PhotoGallery1 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery1 .clearfix:after,
+#PhotoGallery1 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery1 .visible-col10
+{
+   display: block;
+}
+#PhotoGallery1 .visible-col5
+{
+   display: none;
+}
+#PhotoGallery2
+{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   table-layout: fixed;
+   display: table;
+}
+#PhotoGallery2 .thumbnails
+{
+   margin: 0;
+}
+#PhotoGallery2 .thumbnail
+{
+   position: relative;
+   min-height: 1px;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   float: left;
+   padding: 3px 3px 3px 3px;
+   width: 10%;
+   text-align: center;
+   vertical-align: top;
+}
+#PhotoGallery2 .thumbnail img
+{
+   border: 0px #000000 solid;
+   display: block;
+   width: 100%;
+   height: auto;
+   max-width: 100%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+#PhotoGallery2 .clearfix:before,
+#PhotoGallery2 .clearfix:after,
+#PhotoGallery2 .thumbnails:before,
+#PhotoGallery2 .thumbnails:after
+{
+   display: table;
+   content: " ";
+}
+#PhotoGallery2 .clearfix:after,
+#PhotoGallery2 .thumbnails:after
+{
+   clear: both;
+}
+#PhotoGallery2 .visible-col10
+{
+   display: block;
+}
+#PhotoGallery2 .visible-col5
+{
+   display: none;
+}
+#wb_baslik
+{
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   z-index: 1;
+}
+#wb_logo
+{
+   display: inline-block;
+   width: 131px;
+   height: 72px;
+   z-index: 0;
+}
+#wb_PhotoGallery1
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 7;
+}
+#wb_PhotoGallery2
+{
+   display: inline-block;
+   width: 100%;
+   z-index: 8;
+}
+#wb_sayfa1
+{
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   z-index: 3;
+}
+#wb_sayfa2
+{
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   z-index: 4;
+}
+#wb_sayfa3
+{
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   z-index: 5;
+}
+#wb_sayfa4
+{
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   z-index: 6;
+}
+@media only screen and (min-width: 768px) and (max-width: 969px)
+{
+#BuildWith1
+{
+   left: 441px;
+   top: 967px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 .col-1
+{
+   display: block;
+   flex-basis: 16.66666667%;
+   max-width: 16.66666667%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: left;
+}
+#LayoutGrid1 .col-2
+{
+   display: block;
+   flex-basis: 58.33333333%;
+   max-width: 58.33333333%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: left;
+}
+#LayoutGrid1 .col-3
+{
+   display: block;
+   flex-basis: 25%;
+   max-width: 25%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: center;
+}
+#wb_LayoutGrid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_LayoutGrid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid2 .col-1, #LayoutGrid2 .col-2, #LayoutGrid2 .col-3, #LayoutGrid2 .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid2 .col-1
+{
+   display: block;
+   flex-basis: 25%;
+   max-width: 25%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid2 .col-2
+{
+   display: block;
+   flex-basis: 25%;
+   max-width: 25%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid2 .col-3
+{
+   display: block;
+   flex-basis: 25%;
+   max-width: 25%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid2 .col-4
+{
+   display: block;
+   flex-basis: 25%;
+   max-width: 25%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3 .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid3 .col-1
+{
+   display: block;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_LayoutGrid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid4 .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid4 .col-1
+{
+   display: block;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_logo
+{
+   width: 98px;
+   height: 54px;
+   visibility: visible;
+   display: inline-block;
+}
+#logo
+{
+   width: 98px;
+   height: 54px;
+}
+#wb_baslik
+{
+   visibility: visible;
+   display: block;
+   color: #191970;
+   font-size: 53px;
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_sayfa1
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 19px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #000000 solid;
+   border-radius: 4px;
+}
+#wb_sayfa1
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #000000 solid;
+   border-radius: 4px;
+}
+#sayfa1
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+}
+#sayfa1 a
+{
+   color: #000000;
+}
+#wb_sayfa2
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 19px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #000000 solid;
+   border-radius: 4px;
+}
+#wb_sayfa2
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #000000 solid;
+   border-radius: 4px;
+}
+#sayfa2
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+}
+#sayfa2 a
+{
+   color: #000000;
+}
+#wb_sayfa3
+{
+   visibility: visible;
+   display: block;
+   color: #00008B;
+   font-size: 19px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #000000 solid;
+   border-radius: 4px;
+}
+#wb_sayfa3
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #000000 solid;
+   border-radius: 4px;
+}
+#sayfa3
+{
+   color: #00008B;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+}
+#sayfa3 a
+{
+   color: #00008B;
+}
+#wb_sayfa4
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 19px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #000000 solid;
+   border-radius: 4px;
+}
+#wb_sayfa4
+{
+   background-color: #DCDCDC;
+   background-image: none;
+   border: 0px #000000 solid;
+   border-radius: 4px;
+}
+#sayfa4
+{
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 19px;
+}
+#sayfa4 a
+{
+   color: #000000;
+}
+#wb_adres
+{
+   visibility: visible;
+   display: block;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_PhotoGallery1
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#PhotoGallery1 .thumbnail
+{
+   width: 10%;
+}
+#PhotoGallery1 .visible-col10
+{
+   display: block;
+}
+#PhotoGallery1 .visible-col5
+{
+   display: none;
+}
+#wb_PhotoGallery2
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#PhotoGallery2 .thumbnail
+{
+   width: 10%;
+}
+#PhotoGallery2 .visible-col10
+{
+   display: block;
+}
+#PhotoGallery2 .visible-col5
+{
+   display: none;
+}
+}
+@media only screen and (max-width: 767px)
+{
+#BuildWith1
+{
+   left: 330px;
+   top: 1300px;
+   width: 88px;
+   height: 31px;
+   visibility: visible;
+   display: inline;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1 .col-1, #LayoutGrid1 .col-2, #LayoutGrid1 .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 .col-1
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: center;
+}
+#LayoutGrid1 .col-2
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: center;
+   align-self: center;
+   text-align: center;
+}
+#LayoutGrid1 .col-3
+{
+   display: none;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_LayoutGrid2
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #F5F5F5;
+   background-image: none;
+}
+#wb_LayoutGrid2
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid2 .col-1, #LayoutGrid2 .col-2, #LayoutGrid2 .col-3, #LayoutGrid2 .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid2 .col-1
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid2 .col-2
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid2 .col-3
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#LayoutGrid2 .col-4
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_LayoutGrid3
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid3
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid3 .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid3 .col-1
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_LayoutGrid4
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid4
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid4 .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid4 .col-1
+{
+   display: block;
+   -webkit-flex-basis: 100%;
+   flex-basis: 100%;
+   max-width: 100%;
+   -webkit-align-self: flex-start;
+   align-self: flex-start;
+   text-align: left;
+}
+#wb_logo
+{
+   width: 131px;
+   height: 72px;
+   visibility: visible;
+   display: inline-block;
+}
+#logo
+{
+   width: 131px;
+   height: 72px;
+}
+#wb_baslik
+{
+   visibility: visible;
+   display: block;
+   color: #191970;
+   font-size: 53px;
+   font-family: "Trebuchet MS";
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_sayfa1
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 19px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #DCDCDC;
+   background-image: none;
+   border-radius: 4px;
+}
+#wb_sayfa2
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 19px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #DCDCDC;
+   background-image: none;
+   border-radius: 4px;
+}
+#wb_sayfa3
+{
+   visibility: visible;
+   display: block;
+   color: #00008B;
+   font-size: 19px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #DCDCDC;
+   background-image: none;
+   border-radius: 4px;
+}
+#wb_sayfa4
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 19px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #DCDCDC;
+   background-image: none;
+   border-radius: 4px;
+}
+#wb_adres
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_PhotoGallery1
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#PhotoGallery1 .thumbnail
+{
+   width: 20%;
+}
+#PhotoGallery1 .visible-col10
+{
+   display: none;
+}
+#PhotoGallery1 .visible-col5
+{
+   display: block;
+}
+#wb_PhotoGallery2
+{
+   visibility: visible;
+   display: block;
+   color: #000000;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#PhotoGallery2 .thumbnail
+{
+   width: 20%;
+}
+#PhotoGallery2 .visible-col10
+{
+   display: none;
+}
+#PhotoGallery2 .visible-col5
+{
+   display: block;
+}
+}
